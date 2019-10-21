@@ -1,0 +1,37 @@
+$primary-color: rgb(88, 85, 85);
+$secondary_color: gray;
+
+body{
+    color: $primary-color;
+    p{
+        color: $secondary_color;
+    }
+}
+
+.button{
+    a{
+        color: $secondary_color;
+        font-weight: 600;
+        text-decoration: none;
+        padding-top: 15px;
+        border-top: 1px solid lightgray;
+        transition: 0.1s ease-in;
+
+        &:hover{
+            padding: 8px 15px;
+            border-radius: 20px;
+            background-color: rgb(138, 118, 230);
+            color: white;
+        }
+    }
+}
+
+.box{
+    box-shadow: 0px 8px 12px -7px rgba(201,185,201,1);
+    transition: 0.4s ease-in;
+
+    &:hover{
+       /* transform: scale(1.1);*/
+       box-shadow: 0px 9px 15px 0px rgba(201,185,201,1);
+    }
+}

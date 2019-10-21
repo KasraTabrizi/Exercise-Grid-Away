@@ -1,3 +1,32 @@
+body {
+  color: #585555;
+}
+body p {
+  color: gray;
+}
 
+.button a {
+  color: gray;
+  font-weight: 600;
+  text-decoration: none;
+  padding-top: 15px;
+  border-top: 1px solid lightgray;
+  transition: 0.1s ease-in;
+}
+.button a:hover {
+  padding: 8px 15px;
+  border-radius: 20px;
+  background-color: #8a76e6;
+  color: white;
+}
+
+.box {
+  box-shadow: 0px 8px 12px -7px #c9b9c9;
+  transition: 0.4s ease-in;
+}
+.box:hover {
+  /* transform: scale(1.1);*/
+  box-shadow: 0px 9px 15px 0px #c9b9c9;
+}
 
 /*# sourceMappingURL=style.css.map */
